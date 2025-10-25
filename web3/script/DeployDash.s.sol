@@ -3,8 +3,8 @@ pragma solidity ^0.8.28;
 
 import "@forge-std/Script.sol";
 import "@forge-std/console.sol";
-import "../src/DashToken.sol";
-import "../src/TokenVesting.sol";
+import "../src/tokens/DashToken.sol";
+import "../src/tokens/TokenVesting.sol";
 
 /**
  * @title DeployDash

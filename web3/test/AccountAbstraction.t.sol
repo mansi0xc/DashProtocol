@@ -3,10 +3,10 @@ pragma solidity ^0.8.28;
 
 import "@forge-std/Test.sol";
 import "@forge-std/console.sol";
-import "../src/DashToken.sol";
-import "../src/DashAccount.sol";
-import "../src/DashAccountFactory.sol";
-import "../src/DashPaymaster.sol";
+import "../src/tokens/DashToken.sol";
+import "../src/account-abstraction/DashAccount.sol";
+import "../src/account-abstraction/DashAccountFactory.sol";
+import "../src/account-abstraction/DashPaymaster.sol";
 import "../lib/account-abstraction/contracts/core/EntryPoint.sol";
 
 contract AccountAbstractionTest is Test {

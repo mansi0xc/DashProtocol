@@ -3,10 +3,10 @@ pragma solidity ^0.8.28;
 
 import "@forge-std/Test.sol";
 import "@forge-std/console.sol";
-import "../src/DashToken.sol";
-import "../src/SimpleLiquidityPool.sol";
-import "../src/DashSmartRouter.sol";
-import "../src/TransactionSimulator.sol";
+import "../src/tokens/DashToken.sol";
+import "../src/dex/SimpleLiquidityPool.sol";
+import "../src/dex/DashSmartRouter.sol";
+import "../src/dex/TransactionSimulator.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 // Mock WETH for testing

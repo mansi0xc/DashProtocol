@@ -4,11 +4,11 @@ pragma solidity ^0.8.28;
 import "@openzeppelin/contracts/utils/Create2.sol";
 import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "../lib/account-abstraction/contracts/interfaces/IEntryPoint.sol";
-import "../lib/account-abstraction/contracts/interfaces/ISenderCreator.sol";
-import "../lib/account-abstraction/contracts/accounts/SimpleAccount.sol";
+import "../../lib/account-abstraction/contracts/interfaces/IEntryPoint.sol";
+import "../../lib/account-abstraction/contracts/interfaces/ISenderCreator.sol";
+import "../../lib/account-abstraction/contracts/accounts/SimpleAccount.sol";
 import "./DashAccount.sol";
-import "./DashToken.sol";
+import "../tokens/DashToken.sol";
 
 /**
  * @title DashAccountFactory
