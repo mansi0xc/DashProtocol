@@ -3,3 +3,32 @@ ipykernel
 dotenv
 langchain[google-genai]
 web3
+openai-whisper
+pyttsx3
+sounddevice
+numpy
+scipy
+
+# 1. Install ffmpeg
+# Recommended Method: Download the static build of ffmpeg and add it to your PATH.
+
+# a. Download ffmpeg:
+# Go to: https://ffmpeg.org/download.html
+
+# Under "Get packages & executable files", pick Windows builds by gyan.dev, BtbN, or another trusted source.
+
+# Download the Static build zip.
+
+# b. Unzip & Move ffmpeg.exe
+# Unzip the folder.
+
+# Copy the path to the bin folder inside (it will contain ffmpeg.exe).
+
+# c. Add to Environment PATH:
+# Go to Windows Search "Edit the system environment variables" → Environment Variables.
+
+# Under "System Variables" find "Path" → Edit → New → paste the path to the bin directory (e.g. C:\ffmpeg\bin)
+
+# Click OK/Apply on all dialogs.
+
+# d. Close and Restart your IDE/terminal after making this change.
