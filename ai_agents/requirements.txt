@@ -1,0 +1,5 @@
+langchain
+ipykernel
+dotenv
+langchain[google-genai]
+web3
