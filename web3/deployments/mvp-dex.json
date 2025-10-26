@@ -1,0 +1,8 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "dashToken": "0xA4e2553B97FCa8205a8ba108814016e43c9fd32a",
+  "smsToken": "0x56C092A883032CE07Bb2b506eFf8EeEe85b444F8",
+  "pool": "0xE3f19EdE356F5E1C1Ef3499F80F794D2C9F3670a",
+  "deployer": "0x34Df0107d4aEE3830899d2AC1F52ACd4015F729B"
+}

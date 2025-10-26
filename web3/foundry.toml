@@ -9,7 +9,10 @@ via_ir = true
 bytecode_hash = "none"
 cbor_metadata = false
 ffi = false
-fs_permissions = [{ access = "read", path = "./" }]
+fs_permissions = [
+    { access = "read", path = "./" },
+    { access = "read-write", path = "./deployments" }
+]
 remappings = [
     "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
     "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
