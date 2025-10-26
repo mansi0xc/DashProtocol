@@ -1,0 +1,12 @@
+{
+    "DASH": {
+        "address": "0xA4e2553B97FCa8205a8ba108814016e43c9fd32a",
+        "decimals": 18,
+        "symbol": "DASH"
+    },
+    "SMS": {
+        "address": "0x56C092A883032CE07Bb2b506eFf8EeEe85b444F8",
+        "decimals": 18,
+        "symbol": "SMS"
+    }
+}
